@@ -45,6 +45,15 @@
 
         <v-row class="grow ml-1">This action can not be undone!</v-row>
         <v-spacer></v-spacer>
+        <div>
+          <br>
+          <v-btn
+          class="mr-4"
+            color="white"
+            outlined
+          >
+            Cancel
+          </v-btn>
           <v-btn
             color="critical"
             outlined
