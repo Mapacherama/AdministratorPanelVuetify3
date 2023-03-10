@@ -26,7 +26,11 @@ npm run dev
 pnpm dev
 ```
 
+<<<<<<< HEAD
 ### Compiles and minifies for production
+=======
+The panel should now be accessible at http://localhost:3000.
+>>>>>>> d4585b19d0f9d6428c5210108567a5b3fa8735d7
 
 ```
 # yarn
