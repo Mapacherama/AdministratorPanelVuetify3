@@ -1,61 +1,57 @@
-# essentials
+# AdministratorPanelVuetify3
 
-## Project setup
 
-```
-# yarn
-yarn
+# Admin Panel
 
-# npm
-npm install
+This is an administrator panel written in Vue.js 3 and Vuetify. It provides an interface for administrators to manage users, content, and settings.
 
-# pnpm
-pnpm install
-```
+# Features
 
-### Compiles and hot-reloads for development
+* User management: Create, update, and delete user accounts
+* Content management: Manage content on the site, including articles, images, and videos
+* Settings management: Update site settings, including the site name, logo, and color scheme
+* Role-based access control: Assign roles to users and restrict access to certain areas of the site
+* Responsive design: The panel is optimized for desktop, tablet, and mobile devices
 
-```
-# yarn
-yarn dev
+# Installation
 
-# npm
-npm run dev
+To install the admin panel, follow these steps:
 
-# pnpm
-pnpm dev
-```
+1. Clone the repository: git clone <repository-url>
+2. Install dependencies: npm install
+3. Start the development server: npm run serve
 
-<<<<<<< HEAD
-### Compiles and minifies for production
-=======
 The panel should now be accessible at http://localhost:3000.
->>>>>>> d4585b19d0f9d6428c5210108567a5b3fa8735d7
 
-```
-# yarn
-yarn build
+# Configuration
 
-# npm
-npm run build
+The administrator panel requires a backend API to manage user authentication and data storage. To configure the backend, modify the src/config.js file with the appropriate values.
 
-# pnpm
-pnpm build
-```
+        export default {
+          apiBaseUrl: 'https://example.com/api',
+          authEndpoint: '/auth',
+          usersEndpoint: '/users',
+          contentEndpoint: '/content',
+          settingsEndpoint: '/settings',
+        };
 
-### Lints and fixes files
+# Contributing
 
-```
-# yarn
-yarn lint
+If you would like to contribute to the administrator panel, follow these steps:
 
-# npm
-npm run lint
+1. Fork the repository
+2. Create a new branch: git checkout -b feature-branch
+3. Make changes and commit them: git commit -m "Add feature"
+4. Push to the branch: git push origin feature-branch
+5. Create a pull request
 
-# pnpm
-pnpm lint
-```
+# License
 
-### Customize configuration
+This project is licensed under the MIT License. See the LICENSE file for more information.
+Credits
 
-See [Configuration Reference](https://vitejs.dev/config/).
+This administrator panel was created by Jerome Tesselaar as a test environment for Fuga.Cloud. It was built using the following technologies:
+
+- [Vue.js](https://vuejs.org/guide/introduction.html)
+- [Vuetify](https://vuetifyjs.com/en/getting-started/installation/)
+- [Axios](https://axios-http.com/docs/intro)
