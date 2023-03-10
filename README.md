@@ -21,7 +21,7 @@ To install the admin panel, follow these steps:
 2. Install dependencies: npm install
 3. Start the development server: npm run serve
 
-The panel should now be accessible at http://localhost:8080.
+The panel should now be accessible at http://localhost:3000.
 
 # Configuration
 
